@@ -6,8 +6,8 @@
  * Pentago is won when a player gets five marbles in a row (horizontally, 
  * vertically, or diagonally).  On each turn the active player places a marble
  * and rotates one of the quadrants of the six by six playing board.
- * The rotation must be 90° counterclockwise or clockwise, and can not be 0°, 
- * 180°, 360°, etc.  Each quadrant of the board is a three by three subsection of
+ * The rotation must be 90Â° counterclockwise or clockwise, and can not be 0Â°, 
+ * 180Â°, 360Â°, etc.  Each quadrant of the board is a three by three subsection of
  * the main six by six board.  
  */
 
