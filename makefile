@@ -1,12 +1,9 @@
-all : PentagoGUI.class Pentago.class RoundButton.class ComputerPlayer.class Game.class Tree.class
+all : PentagoGUI.class Pentago.class RoundButton.class ComputerPlayer.class Game.class
 .PHONY : all
 
 run : all
 	java PentagoGUI
 .PHONY : run
-
-Tree.class : Tree.java
-	javac Tree.java
 
 PentagoGUI.class : PentagoGUI.java
 	javac PentagoGUI.java
